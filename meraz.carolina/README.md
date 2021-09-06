@@ -1,4 +1,4 @@
-# Carolina Meraz quesito
+# Carolina Meraz
 
 - https://carolme.art
 
