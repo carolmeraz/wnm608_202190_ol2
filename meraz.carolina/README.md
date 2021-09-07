@@ -1,4 +1,4 @@
-# Carolina Merazz
+# Carolina Meraz
 
 - https://carolme.art
 
