@@ -1,0 +1,178 @@
+ /* CSS Reset */
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --color-neutral-light: #747a7e;
+    --color-neutral-medium: #999;
+    --color-neutral-dark: #555;
+
+
+    --color-black: #000;
+    --color-white: #eee;
+
+
+    --header-height: 3rem;
+    --spacing: 1rem;
+
+
+    --font-sans: Helvetica, Arial, sans-serif;
+}
+
+
+
+body{
+    margin: 0;
+    font-size: 100%;
+    
+}
+
+
+a{
+    color: inherit;
+  
+    text-decoration: none;
+    font-family: var(--font-sans);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/*Layout classes*/
+
+.container{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.display-flex { display: flex; }
+.display-inline-flex { display: inline-flex; }
+.display-block { display: block; }
+.display-inline-block { display: inline-block; }
+
+.flex-stretch { flex: 1 1 auto }
+.flex-none{ flex: none }
+
+.flex-align-center { align-items:center; }
+.flex-justify-center { justify-content:center; }
+
+
+
+
+
+
+
+  /* Compotent class */
+
+
+  .nav ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+
+.navbar{
+    background-color: var(--color-neutral-light);
+    color: var(--color-white);
+    line-height: var(--header-height);
+}
+
+.navbar h1{
+    font-size: 1em;
+    margin: 0;
+    font-family: var(--font-sans);
+
+}
+
+
+.navbar a{
+    padding: 0 1em;
+}
+
+
+
+
+/*cards bar*/
+.all-lightbox{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+
+
+.gallery{
+  
+    display: inline-flex;
+    
+    justify-content: center;
+
+}
+
+
+.gallery-item{
+    /*grow imgs larger*/
+    flex: 0 0 30%;
+    padding: 10px;
+    
+
+}
+
+
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*expand img to fit square without distording it*/
+    object-position: center;
+}
+
+
+.lightbox-info{
+    font-family: var(--font-sans);
+     color: var(--color-black);
+}
+
+
+
+
+
+/*FOOTER*/
+
+
+#footer2{
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+    background-color: ; 
+    height: 10%;
+
+ }
+
+
+
+.f2 {
+    text-align: center;
+    background-color: var(--color-neutral-light);
+    font-family: var(--font-sans);
+    font-size: 13px;
+    letter-spacing : .5px;
+   color: var(--color-white);
+    position: sticky;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+    padding: 10px;
+
+
+
+}
