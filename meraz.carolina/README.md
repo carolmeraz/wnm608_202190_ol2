@@ -2,8 +2,7 @@
 
 - https://carolme.art
 ## Relevant Links
-- https://carolme.art/aau/wnm608/meraz.carolina
-- https://carolme.art/aau/wnm608/meraz.carolina/styleguide/index.html
+- https://www.carolme.art/aau/wnm608/meraz.carolina
 - http://www.carolme.art/aau/wnm608/meraz.carolina/styleguide/index.html
 
 
