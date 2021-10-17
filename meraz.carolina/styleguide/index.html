@@ -35,17 +35,19 @@
 						</ul>
 
 					<li><a href="#cards">Cards</a></li>
+					<li><a href="#colorpalette">Color Palette</a></li>
 					<li><a href="#navigation">Navigations</a></li>
+					
+					<li><a href="#grids">Grids</a></li>
+					<li><a href="#responsivegrid">Responsive Grid</a></li>
 					<li><a href="#gridsystem">Grid System</a></li>
 					<li><a href="#productlist">Product List</a></li>
-					<li><a href="#colorpalette">Color Palette</a></li>
+
 					<li><a href="#tables">Tables</a></li>
 					<li><a href="#forms">Forms</a></li>
 
 					<ul>
 						<li><a href="#inputs">Inputs</a></li>
-						<li><a href="#labels">Labels</a></li>
-						<li><a href="#controls">Controls</a></li>
 						<li><a href="#buttons">Buttons</a></li>
 						<li><a href="#hotdog">Hotdog</a></li>
 						<li><a href="#select">Select</a></li>
@@ -96,6 +98,37 @@
 </div>
 
 
+
+<div class="container" id="colorpalette">
+	<h2>Color Palette</h2>
+	<h3>Primary Colors</h3>
+	<div class="grid gap xs-small md-medium">
+	
+		<div class="col-xs-12 col-md-4">
+			
+			<div class="primarycolor1">#333333</div>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			
+			<div class="primarycolor2">#B2B0B2</div>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			
+			
+			<div class="primarycolor3">#FFF8E1</div>
+		</div>
+	</div>
+<h3>Accent Color</h3>
+<div class="grid gap xs-small md-medium">
+		<div class="col-xs-12 col-md-4">
+			
+			<div class="accentcolor">#a4c3f9ff</div>
+		</div>
+		
+	</div>
+</div>
+
+
 <div class="container" id="navigation">
 	<h2>Navigations</h2>
 
@@ -132,6 +165,64 @@
 
 	</div>
 </div>
+
+
+
+
+
+
+<div class="container" id="grids">
+	<div class="card soft">
+		<h3>Grids</h3>
+			<div class="grid gap">
+	               
+	                <div class="col-xs-12 col-md-6 card hard">Column 6
+	                </div>
+	                <div class="col-xs-12 col-md-6 card hard">Column 6
+	                </div>
+	                <div class="col-xs-12 col-md-4 card hard">column 4</div>
+	                <div class="col-xs-12 col-md-4 card hard">column 4</div>
+	                <div class="col-xs-12 col-md-4 card hard">column 4</div>
+	                <div class="col-xs-12 col-md-3 card hard">column 3</div>
+	                <div class="col-xs-12 col-md-3 card hard">column 3</div>
+	                <div class="col-xs-12 col-md-3 card hard">column 3</div>
+	                <div class="col-xs-12 col-md-3 card hard">column 3</div>
+	               
+	            </div>
+
+	</div>
+
+
+
+</div>
+
+
+		
+
+
+	  <div class="container" id="responsivegrid">
+	  	<div class="card soft">
+	  	<h3>Responsive Grid</h3>
+	  		<div class="grid">
+	  			<div class="col-xs-12 col-md-6 card hard">column 6</div>
+	  			<div class="col-xs-12 col-md-6 card hard">column 6</div>
+
+	  		</div>
+		  		<div class="grid">
+		  			<div class="col-xs-12 col-md-4 col-xl-3 card hard">column 4</div>
+		  			<div class="col-xs-12 col-md-4 col-xl-3 card hard">column 4</div>
+		  			<div class="col-xs-12 col-md-4 col-xl-6 card hard">column 4</div>
+		  			
+		  		</div>
+		  		<div class="grid">
+		  			<div class="col-xs-12 col-md-3 card hard">column 3</div>
+		  			<div class="col-xs-12 col-md-3 card hard">column 3</div>
+		  			<div class="col-xs-12 col-md-3 card hard">column 3</div>
+		  			<div class="col-xs-12 col-md-3 card hard">column 3</div>
+		  			
+	  		</div>
+	  	</div>
+	  </div>
 
 
 
@@ -200,34 +291,22 @@
 
 
 
-<div class="container" id="colorpalette">
-	<h2>Color Palette</h2>
-	<h3>Primary Colors</h3>
-	<div class="grid gap xs-small md-medium">
-	
-		<div class="col-xs-12 col-md-4">
-			
-			<div class="primarycolor1">#333333</div>
-		</div>
-		<div class="col-xs-12 col-md-4">
-			
-			<div class="primarycolor2">#B2B0B2</div>
-		</div>
-		<div class="col-xs-12 col-md-4">
-			
-			
-			<div class="primarycolor3">#FFF8E1</div>
-		</div>
-	</div>
-<h3>Accent Color</h3>
-<div class="grid gap xs-small md-medium">
-		<div class="col-xs-12 col-md-4">
-			
-			<div class="accentcolor">#a4c3f9ff</div>
-		</div>
-		
-	</div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -235,13 +314,13 @@
 
 <script>
 	const makeTable = (classes='') => {
-		const head = ['ID','Office','Name','Email','Phone'];
+		const head = ['ID','Product Name','Material','Price','Quantity'];
 		const body = [
-			['522', "H. Cline", 'hcline@academyart.edu', '555-2424'],
-			['512', "Fred McHale", 'fmchale@academyart.edu', '555-2424'],
-			['522', "M. Catanzaro", 'mcatanzaro@academyart.edu', '555-2424'],
-			['514', "A. Pimentel", 'apimentel@academyart.edu', '555-2424'],
-			['516', "DC Scarpelli", 'dscarpelli@academyart.edu', '555-2424'],
+			['Pinched Mug','Porcelain', "$30", '4',],
+			['Incense Holder','Earthware',"$20", '4',],
+			['Free Form Vase', 'Stoneware',"$22", '8'],
+			['Ikebana Bowl', 'Earthware',"$50", '2'],
+			['Floral Frogs', 'Porcelain',"$45", '3'],
 
 
 		];
@@ -309,7 +388,7 @@
 
 
 
-	<h3>Inputs</h3>
+	<h3 id="inputs">Inputs</h3>
 	<div class="card soft">
 		<h3>Default Inputs</h3>
 		<form>
@@ -362,9 +441,23 @@
 					<input type="password" placeholder="Password" class="form-input">
 				</div>
 
-				<div class="form-control">	
-					<label class="form-label">Search</label>
-					<input type="search" placeholder="Search" class="form-input">
+
+
+
+					<div class="form-control display-flex flex-align-center">
+						<div class="flex-none">
+						
+							<label class="form-label">City</label>
+						</div>
+						<div class="flex-stretch">
+							<input type="city" placeholder="City" class="form-input">
+						</div>
+						<div class="flex-none">
+							<label class="form-label">Country</label>
+						</div>
+						<div class="flex-stretch">
+							<input type="country" placeholder="Country" class="form-input">
+						</div>
 				</div>
 
 		</form>
@@ -474,6 +567,16 @@
 
 		</div>
 	</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
