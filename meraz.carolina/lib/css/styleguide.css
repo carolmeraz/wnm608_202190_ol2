@@ -7,7 +7,7 @@
 :root{
     --color-neutral-light: #747a7e;
     --color-neutral-medium: #999;
-    --color-neutral-dark: #555;
+    --color-neutral-dark: #333333;
 
 
     --color-black: #000;
@@ -56,6 +56,21 @@ a:hover{
 
 }
 
+/*for main page*/
+.container2{
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+    background-color: var(--color-neutral-dark);
+    font-family: var(--font-sans);
+    font-size: 17px;
+    letter-spacing : .5px;
+    color: var(--color-white);
+
+}
+
 .display-flex { display: flex; }
 .display-inline-flex { display: inline-flex; }
 .display-block { display: block; }
@@ -93,13 +108,13 @@ a:hover{
 
 
 .navbar{
-    background-color: var(--color-neutral-light);
+    background-color: var(--color-neutral-dark);
     color: var(--color-white);
     line-height: var(--header-height);
 }
 
 .navbar h1{
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0;
     font-family: var(--font-sans);
 
@@ -136,46 +151,7 @@ a:hover{
 
 
 /*cards bar*/
-.all-lightbox{
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-right: 70px;
-    margin-left: 70px;
-}
 
-
-
-.gallery{
-  
-    display: inline-flex;
-    
-    justify-content: center;
-
-}
-
-
-.gallery-item{
-    /*grow imgs larger*/
-    flex: 0 0 30%;
-    padding: 10px;
-    
-
-}
-
-
-
-.gallery img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /*expand img to fit square without distording it*/
-    object-position: center;
-}
-
-
-.lightbox-info{
-    font-family: var(--font-sans);
-     color: var(--color-black);
-}
 
 
 .card{
@@ -397,6 +373,10 @@ a:hover{
     color: white;
 }
 
+.hotdog.light {
+  background-color: white;
+  color: #333333;
+}
 
 /*Select*/
 
@@ -462,26 +442,93 @@ a:hover{
 
 
 
+/*mainsite*/
+.view-window {
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+.bcolor{
+    background-color: var(--color-neutral-dark);
+}
+
+
+.textpage{
+   margin-top: 180px;
+   margin-left: 50px;
+   color: var(--color-neutral-dark);
+
+}
+
+.buttonpage{
+    background-color: var(--color-neutral-dark);
+    color: var(--color-white);
+    width: 110px;
+    height: 50px;
+    border-style: none;
+    font-size: 16px;
+}
+
+
+
+.hotdog.dark2{
+    background-color: pink;
+    border-radius: .5em;
+    padding: 0.5em .5em;
+    display: flex;
+    color: white;
+}
+
+
+.hotdog2 input,
+.hotdog2,
+{
+    display: inline-block;
+    background-color: transparent;
+    border-width: 0;
+    
+    font: inherit;
+    -webkit-appearance: none;
+    color: inherit;
+    width: 40%;
+    outline: 0;
+   
+}
+
+.hotdogcont{
+    width: 60%;
+}
 
 
 
 
-
-
-
-
-
-
+/*procut item button*/
+.buttonitem{
+    background-color: var(--color-neutral-dark);
+    color: var(--color-white);
+    width: 150px;
+    height: 65px;
+    border-style: none;
+    font-size: 18px;
+}
 
 
 /*FOOTER*/
+
+
+
 
 
 #footer2{
     display: flex;
     justify-content: center;
     width: 100%;   
-    background-color: ; 
     height: 10%;
 
  }
@@ -490,9 +537,9 @@ a:hover{
 
 .f2 {
     text-align: center;
-    background-color: var(--color-neutral-light);
+    background-color: var(--color-neutral-dark);
     font-family: var(--font-sans);
-    font-size: 13px;
+    font-size: 11px;
     letter-spacing : .5px;
     color: var(--color-white);
     position: sticky;
