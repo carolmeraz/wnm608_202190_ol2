@@ -1,0 +1,43 @@
+[
+	
+	{
+		"name":"Carolina Meraz",
+		"type":"Student",
+		"email":"cmeraz@art.edu",
+		"classes":[605,608,333]
+	},
+	{
+		"name":"Stefany Salas",
+		"type":"Actor",
+		"email":"ssalas@art.edu",
+		"classes":[604,608,333]
+	},
+	{
+		"name":"Victoria Rufo",
+		"type":"Actor",
+		"email":"vrufo@art.edu",
+		"classes":[605,608,890]
+	},
+	{
+		"name":"Luis Miguel",
+		"type":"Singer",
+		"email":"lmiguel@art.edu",
+		"classes":[605,608,210]
+	},
+	{
+		"name":"Cristian Castro",
+		"type":"Actor",
+		"email":"ccastro@art.edu",
+		"classes":[605,608,222]
+	},
+	{
+		"name":"Patty Chapoy",
+		"type":"Journalist",
+		"email":"pchapoy@art.edu",
+		"classes":[605,608,111]
+	}
+
+
+
+]
+
