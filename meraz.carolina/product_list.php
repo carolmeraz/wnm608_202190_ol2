@@ -33,10 +33,10 @@
 				<div class="col-xs-12 col-md-4">
 					
 					<figure class="figure product">
-						<img src="img/ceramic1.jpg" alt="">
+						<img src="img/vases1.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=1"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$15.00</div>
 						</figcaption>
 					</figure>
 
@@ -44,7 +44,7 @@
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic2.jpg" alt="">
+						<img src="img/cups2.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=2"><div>Product Name</div></a>
 							<div>$10.00</div>
@@ -54,10 +54,10 @@
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic3.jpg" alt="">
+						<img src="img/soup_plate3.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=3"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$12.00</div>
 						</figcaption>
 					</figure>
 				</div>
@@ -67,10 +67,10 @@
 <div class="col-xs-12 col-md-4">
 					
 					<figure class="figure product">
-						<img src="img/ceramic4.jpg" alt="">
+						<img src="img/flower_vases4.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=4"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$45.00</div>
 						</figcaption>
 					</figure>
 
@@ -78,20 +78,20 @@
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic5.jpg" alt="">
+						<img src="img/bowl_set5.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=5"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$60.00</div>
 						</figcaption>
 					</figure>
 				</div>
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic6.jpg" alt="">
+						<img src="img/water_bowl6.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=6"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$15.00</div>
 						</figcaption>
 					</figure>
 				</div>
@@ -99,10 +99,10 @@
 <div class="col-xs-12 col-md-4">
 					
 					<figure class="figure product">
-						<img src="img/ceramic7.jpg" alt="">
+						<img src="img/dessert_plate7.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=7"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$13.00</div>
 						</figcaption>
 					</figure>
 
@@ -110,20 +110,20 @@
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic8.jpg" alt="">
+						<img src="img/container8.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=8"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$15.00</div>
 						</figcaption>
 					</figure>
 				</div>
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic9.jpg" alt="">
+						<img src="img/glasses9.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=9"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$12.00</div>
 						</figcaption>
 					</figure>
 				</div>
@@ -133,10 +133,10 @@
 <div class="col-xs-12 col-md-4">
 					
 					<figure class="figure product">
-						<img src="img/ceramic10.jpg" alt="">
+						<img src="img/plant_vases10.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=11"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$50.00</div>
 						</figcaption>
 					</figure>
 
@@ -144,20 +144,20 @@
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic11.jpg" alt="">
+						<img src="img/open_flower_vases11.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=11"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$25.00</div>
 						</figcaption>
 					</figure>
 				</div>
 
 				<div class="col-xs-12 col-md-4">
 					<figure class="figure product">
-						<img src="img/ceramic12.jpg" alt="">
+						<img src="img/milk_cups_set12.jpg" alt="">
 						<figcaption>
 							<a href="product_item.php?id=12"><div>Product Name</div></a>
-							<div>$10.00</div>
+							<div>$60.00</div>
 						</figcaption>
 					</figure>
 				</div>
