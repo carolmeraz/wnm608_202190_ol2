@@ -538,11 +538,16 @@ a:hover{
 }
 
 
+
+
+/*space item checkout*/
+.spaceitem{
+    margin-right: 20px;
+}
+
+
+
 /*FOOTER*/
-
-
-
-
 
 #footer2{
     display: flex;

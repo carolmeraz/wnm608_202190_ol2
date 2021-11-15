@@ -33,24 +33,26 @@ $cart = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id` IN (4,7,10)")
 		<div class="grid gap">
 			<div class="col-xs-12 col-md-7">
 				<div class="card soft">
-					<?= array_reduce($cart, 'cartListTemplate') ?>
+					
+						<?= array_reduce($cart, 'cartListTemplate') ?>
+					
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-5">
 				<div class="card soft">
 				<div class="card-section display-flex">
 					<div class="flex-stretch"><strong>Sub Total</strong></div>
-				<div class="flex-none">&dollar;65</div>
+				<div class="flex-none">&dollar;108</div>
 			</div>
 
 			<div class="card-section display-flex">
 					<div class="flex-stretch"><strong>Taxes</strong></div>
-				<div class="flex-none">&dollar;65</div>
+				<div class="flex-none">&dollar;15</div>
 			</div>
 
 			<div class="card-section display-flex">
 					<div class="flex-stretch"><strong>Total</strong></div>
-				<div class="flex-none">&dollar;65</div>
+				<div class="flex-none">&dollar;123</div>
 			</div>
 
 			<div class="card-section">

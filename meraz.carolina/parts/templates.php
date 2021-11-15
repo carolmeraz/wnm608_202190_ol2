@@ -24,7 +24,9 @@ function cartListTemplate($r,$o){
 	return $r.<<<HTML
 <div class="display-flex">
 	<div class="flex-none images-thumbs">
-		<img src="$o->thumbnail">
+		<div class="spaceitem">
+			<img src="$o->thumbnail">
+		</div>
 	</div>
 	<div class="flex-stretch">
 		<strong>$o->name</strong>
