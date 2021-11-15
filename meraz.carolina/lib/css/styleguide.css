@@ -195,6 +195,13 @@ a:hover{
 }
 
 
+/*.card-section~.card-section{
+    padding: 1em;
+}*/
+
+.card-section{
+    padding: 1em;
+}
 
 /*figure*/
 .figure{

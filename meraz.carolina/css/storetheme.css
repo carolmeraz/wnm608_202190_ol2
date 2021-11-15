@@ -6,8 +6,11 @@
 
 
 body{
-	background-color: #eee;
+
+	
+	background-color: #ffffff;
 	/*padding-bottom: 4em;*/
+
 }
 
 
@@ -33,4 +36,27 @@ body{
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 }
+
+
+.productlist a{
+	text-decoration: none;
+
+
+}
+
+
+.images-main img{
+	width: 100%;
+	height: 40vh;
+	object-fit: contain;
+
+}
+
+.images-thumbs img{
+	width: 8em;
+	height: 6em;
+	object-fit: contain;
+}
+
+
 

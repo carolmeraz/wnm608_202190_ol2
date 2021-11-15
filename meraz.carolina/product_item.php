@@ -1,3 +1,19 @@
+<?php
+
+include_once "lib/php/functions.php";
+$product = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id`=".$_GET['id'])[0];
+
+$images = explode(",", $product->images);
+
+$image_elements = array_reduce($images,function($r,$o){
+    return $r."<img src='$o'>";
+
+});
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +22,9 @@
 <title>Product Item</title>
 
 <?php include "parts/meta.php"; ?>
+
+<script src="lib/js/product_thumbs.js"></script>
+
 </head>
 <body>
 
@@ -13,28 +32,61 @@
 
 
 <div class="container">
-<div class="car">
-<h2>Product Item</h2>
-<p>This is item # <?= $_GET['id'] ?></p>
-<div class="grid">
-    <div class="col-xs-12 col-md-6">
-        <img src="img/ceramic1.jpg" alt=" " width="90%">
-    </div>
-    <div class="col-xs-12 col-md-6">
-        <h2>Name of Product</h2>
-        <p>Product information</p>
-        <button class="buttonitem">Add to Cart</button>
-     </div>
-            
+    <div class="grid gap">
+        <div class="col-xs-12 col-md-7">
+            <div class="card soft">
+                <div class="images-main">
+                <img src="<?= $product->thumbnail ?>">
+            </div>
+        
+
+        <div class="images-thumbs">
+            <?= $image_elements ?>
+        </div>
     </div>
 </div>
+    <div class="col-xs-12 col-md-5">
+        <div class="card soft">
+            <div class="card-section">
+            <h2 class="product-name"><?= $product->name ?></h2>
+            <div class="product-price">&dollar;<?= $product->price ?></div>
+        </div>
+
+
+<div class="card-section">
+     <h3>Product Description</h3>
+    <p><?= $product->description ?></p>
+    <br>
+    <label for="product-amount" class="form-label">Amount</label>
+    <div class="form-select" id="product-amount">
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+        </select>
+    </div>
+</div>
+
+<div class="card-section">
+        <a href="product_added_to_cart.php?id=<?= $product->id ?>" class="form-button">Add to Cart</a>
+        
+    </div>
+
+
+    </div>
+</div>
 
 
 </div>
+
+
+
 </div>
-
-
-
 
 
 
