@@ -351,6 +351,10 @@ a:hover{
 
 
 /*button*/
+.form-button.inline {
+width: initial;
+}
+
 .form-button{
     padding: 0.5em 1em;
     background-color: #B2B0B2;
