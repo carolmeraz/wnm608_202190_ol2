@@ -23,7 +23,7 @@ include_once "lib/php/functions.php";
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="product_cart.php">
 					<span>Cart</span>
-					<span class="bagde"><?= makeCartBadge(); ?></span>
+					<span class="badge"><?= makeCartBadge(); ?></span>
 
 				</a></li>
 			</ul>
