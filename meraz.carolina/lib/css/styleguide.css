@@ -379,6 +379,68 @@ width: initial;
 
 
 
+
+
+/*Button for product list category*/
+.category-button{
+    display: inline-block;
+    background-color: transparent;
+    
+    border-width: 0;
+    
+    font: inherit;
+    -webkit-appearance: none;
+   
+    width: 100%;
+    outline: 0;
+   
+}
+
+.category-button{
+    padding: 0.5em 1em;
+    
+   
+    cursor: pointer;
+    color: var(--color-neutral-dark);
+    text-align: left;
+    margin: 8px;
+
+}
+
+
+.category-button:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+.category-button:active{
+   text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Hotdog*/
 
 .hotdog{
