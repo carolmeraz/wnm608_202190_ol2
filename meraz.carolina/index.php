@@ -1,4 +1,9 @@
-<?php include_once "lib/php/functions.php"; ?><!DOCTYPE html>
+<?php 
+include_once "lib/php/functions.php"; 
+include_once "parts/templates.php"; 
+
+
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -61,8 +66,6 @@
 </header>
 
 
-<div class="bcolor">
-
 
 <div class="view-window" style="background-image: url('img/allceramic11.jpg')">
 	<div class="textpage">
@@ -74,23 +77,25 @@
       
     </div>
 
+<br>
+
+<div class="container">
+	<h2>Latest Home Decoration Products</h2>
+	<?php recommendedCategory("decoration");?>
+	<br>
+	<h2>Latest Kitchen Products</h2>
+	<?php recommendedCategory("kitchen");?>
+</div>
 			
 
-<div class="container2">
-	<h1>Our Mission</h1>
-	<p>Searching for that special piece for your home can be tough. All too often, they are sitting in a unique store in a place you haven’t been before. 8I8 Ceramics is an online store dedicated to bring lovely pieces from around the world. We carefully select boutiques run by people with the same love in ceramics as we do. </p>
 
-	<p>If you cannot go to the boutique of your dreams, 8I8 Ceramics brings closer to you the products from hundreds of the most stylish ceramic stores in one place. We want to help you find that special something that will light up your home. </p>
-
-</div>
-<br>
 <br>
 	<div id="footer2">
 
 			<footer class="f2">818 Ceramics &copy; 2021</footer>
 
 		</div><!-- End footer-->
-</div> <!-- bcolor-->
+
 
 
 </body>
