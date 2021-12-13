@@ -19,51 +19,10 @@ include_once "parts/templates.php";
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
 </head>
 
-<body>
 
-		
+<body class="flush"><!-- flush to get rid of the space between image and navbar-->
 
-<header class="navbar">
-
-	
-
-	<div class="container display-flex">
-		<div class="flex-none">
-			<h1>8I8 Ceramics</h1>
-		</div>
-
-		
-				
-
-		<div class="flex-stretch">
-			<!-- begin hotdog
-<div class="hotdogcont">
-	<div class="form-control display-justify-center">
-					<form>
-						<input type="search" class="hotdog dark2" placeholder="Search">
-					</form>
-				</div>
-			</div>
-				End hotdog-->
-
-
-			</div><!-- End div flex stretch-->
-
-		<nav class="flex-none nav">
-			<ul class="container display-flex">
-				<li><a href="index.php">Home</a></li>
-				<li><a href="product_list.php">Shop</a></li>
-				<li><a href="contact.php">Contact</a></li>
-				<li><a href="cart.php">Cart</a></li>
-			</ul>
-
-		</nav>
-
-
-	</div>
-
-
-</header>
+<?php include "parts/navbar.php";?>
 
 
 
@@ -72,7 +31,7 @@ include_once "parts/templates.php";
 				<h2 class="text-h1">Unique Ceramic Pieces
 					<br> Delivered to Your Doorstep</h2>
 					<br>
-				<button class="buttonpage">Shop Now</button>
+				<button class="buttonpage"><a href="product_list.php">Shop Now</a></button>
 			</div>
       
     </div>

@@ -43,18 +43,18 @@ include_once "parts/templates.php";
 <div class="form-control">
 	<div class="card">
 
-	<div class="display-flex">
+	<div class="display-flex flex-wrap">
 
 		<div class="flex-stretch display-flex">
-			<p><b>Search by:</b></p>
+			<p><b>Sort by:</b></p>
 			<div class="flex-none">
 				<button data-filter="category" data-value="" type="button" class="category-button">All</button>
 				</div>
 				<div class="flex-none">
-				<button data-filter="category" data-value="decoration" type="button" class="category-button">Decoration Ceramic</button>
+				<button data-filter="category" data-value="decoration" type="button" class="category-button">Decoration</button>
 				</div>
 				<div class="flex-none">
-				<button data-filter="category" data-value="kitchen" type="button" class="category-button">Kitchen Ceramic</button>
+				<button data-filter="category" data-value="kitchen" type="button" class="category-button">Kitchen</button>
 				</div>
 
 			</div>

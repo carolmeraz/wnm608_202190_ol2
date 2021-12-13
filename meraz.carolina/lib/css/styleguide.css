@@ -82,6 +82,9 @@ a:hover{
 .flex-align-center { align-items:center; }
 .flex-justify-center { justify-content:center; }
 
+.flex-column {flex-direction: column; }
+.flex-wrap{flex-wrap: wrap; }
+
 
 /*Small Classes*/
 
@@ -111,7 +114,14 @@ a:hover{
     background-color: var(--color-neutral-dark);
     color: var(--color-white);
     line-height: var(--header-height);
+    margin-bottom: 1em;
+
 }
+
+.flush>.navbar {
+    margin-bottom: 0;
+}
+
 
 .navbar h1{
     font-size: 1.5em;
@@ -192,6 +202,12 @@ a:hover{
 .card.dark {
   background-color: var(--color-neutral-dark);
   color: var(--color-white);
+}
+
+
+[class*='col-']>.card{
+    height: 100%;
+    margin: 0;
 }
 
 
