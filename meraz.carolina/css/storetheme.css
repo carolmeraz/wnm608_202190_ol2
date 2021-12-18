@@ -26,7 +26,7 @@ body{
 }
 .menu-button label {display: none; }
 
-@media(max-width: 400px) {
+@media(max-width: 500px) {
 	.navbar .display-flex {
 		flex-wrap: wrap;
 
@@ -49,7 +49,37 @@ body{
 	#menu:checked+.navbar .nav {
 		display: block;
 	}
+
+	
+	.view-window{
+	
+	height: 60vh;
+	
 }
+
+.textpage{
+   margin-top: 10%;
+   margin-left: 5%;
+  
+  
+
+}
+
+
+.buttonpage{
+	margin-top: 25%;
+	font-size: 14px;
+}
+
+
+
+
+
+}/*ends size app*/
+
+
+
+
 
 
 .favorite label{

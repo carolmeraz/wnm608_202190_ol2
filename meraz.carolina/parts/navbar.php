@@ -16,9 +16,11 @@ include_once "lib/php/functions.php";
 
 		</div>
 		<div class="flex-stretch"></div>
-		<div class="flex-none menu-button" >
+		<!-- hamburger menu -->
+		<div class="flex-none menu-button">
 			<label for="menu">&equiv;</label>
 		</div>
+
 		<nav class="nav nav-flex flex-none">
 			<ul>
 				<li><a href="index.php">Home</a></li>
@@ -33,4 +35,5 @@ include_once "lib/php/functions.php";
 			</ul>
 		</nav>
 	</div>
+	
 </header>
